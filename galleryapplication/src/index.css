@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.big-form{
+  width: 40%;
+  margin: 30px 30%;
+}
+.big-form > *{
+  margin: 10px 0px;
+}
+.small-form{
+  width: 300px;
+  align-items: center;
+  text-align: center;
+}
+.title-size{
+  font-size: 25px;
+  line-height: 30px;;
+}
+.mid-size{
+  font-size: 18px;
+  line-height: 20px;;
+}
+
+.pictureHolder{
+  border: 1px solid gray;
+  width: 30%;
+  height: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  overflow: hidden;
+  border-radius: 150px;
+}
+.pictureHolder > .innerPicture{
+  width: 100%;
+  height: auto;
+}
+
+.zoom {
+  transition: transform .2s;
+}.zoom:hover {
+  transform: scale(1.2);
+}
+
+.small-zoom{
+  transition: transform .2s;
+}.small-zoom:hover {
+  transform: scale(1.1);
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gridListHolder{
+  width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+.gridPictHolder{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.gridPictHolder > .horizontPict{
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
+}
+.gridPictHolder > .verticalPict{
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+.gridPictHolder > .horizontPictChanged{
+  overflow: hidden;
+  object-fit: contain;
+  height: 375px;
+  margin-left: -40%
+}
+.icon{
+  color: white;
+  opacity: 0.5;
+}.icon:hover{
+  opacity: 1;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .big-form{
+    width: 60%;
+    margin: 30px 20%;
+  }
+
+  .gridListHolder{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .gridPictHolder > .horizontPictChanged{
+    overflow: hidden;
+    object-fit: contain;
+    height: 300px;
+    margin-left: -40%
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .big-form{
+    width: 90%;
+    margin: 30px 5%;
+  }
+  .gridListHolder{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .gridPictHolder > .horizontPictChanged{
+    overflow: hidden;
+    object-fit: contain;
+    height: 200px;
+    margin-left: -40%;
+  }
+  .gridPictHolder > .verticalPict{
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-top: -20%;
+  }
+  .gridPictHolder > .horizontPict{
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
+    margin-top: -30%;
+  }
+}

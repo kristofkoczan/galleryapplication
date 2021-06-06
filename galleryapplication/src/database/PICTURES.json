@@ -1,0 +1,112 @@
+[
+    {
+        "id": 0,
+        "src": "assets/images/uploadedImages/IMG_3806.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "Girl in white",
+        "comments": [],
+        "rating": [],
+        "tags": ["human", "portrait", "girl", "woman"],
+        "vertical": false
+    },
+    {
+        "id": 1,
+        "src": "assets/images/uploadedImages/IMG_7649.JPG",
+        "author": "Kristóf",
+        "createdAt": "2021-01-01",
+        "name": "Coffee up high",
+        "comments": [],
+        "rating": [],
+        "tags": ["coffee", "city", "budapest", "travel", "nature", "hike"],
+        "vertical": true
+    },
+    {
+        "id": 2,
+        "src": "assets/images/uploadedImages/IMG_3169.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "The old and the young ladies",
+        "comments": [],
+        "rating": [],
+        "tags": ["Dóm", "Szeged", "city", "human", "church"],
+        "vertical": true
+    },
+    {
+        "id": 3,
+        "src": "assets/images/uploadedImages/IMG_5554.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "Light at the end of the tunnel",
+        "comments": [],
+        "rating": [],
+        "tags": ["city", "budapest", "tunnel", "urban", "human"],
+        "vertical": false
+    },
+    {
+        "id": 4,
+        "src": "assets/images/uploadedImages/IMG_6560.JPG",
+        "author": "Kristóf",
+        "createdAt": "2021-01-01",
+        "name": "EDC | Black collection",
+        "comments": [],
+        "rating": [],
+        "tags": ["EDC", "black", "black and white", "b&w", "everyday", "flatlay"],
+        "vertical": false
+    },
+    {
+        "id": 5,
+        "src": "assets/images/uploadedImages/IMG_3925.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "Sonic boom",
+        "comments": [],
+        "rating": [],
+        "tags": ["human", "portrait", "girl", "woman"],
+        "vertical": true
+    },
+    {
+        "id": 6,
+        "src": "assets/images/uploadedImages/IMG_7766.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "The cool look",
+        "comments": [],
+        "rating": [],
+        "tags": ["human", "portrait", "sunglasses", "glasses", "black", "male"],
+        "vertical": true
+    },
+    {
+        "id": 7,
+        "src": "assets/images/uploadedImages/IMG_7411.JPG",
+        "author": "Kristóf",
+        "createdAt": "2021-01-01",
+        "name": "Shadows and emptiness",
+        "comments": [],
+        "rating": [],
+        "tags": ["Szeged", "TIK", "urban", "shadows", "lights", "city"],
+        "vertical": true
+    },
+    {
+        "id": 8,
+        "src": "assets/images/uploadedImages/IMG_5619.JPG",
+        "author": "Kristóf",
+        "createdAt": "2021-01-01",
+        "name": "The source of LIFE",
+        "comments": [],
+        "rating": [],
+        "tags": ["coffee", "product"],
+        "vertical": true
+    },
+    {
+        "id": 9,
+        "src": "assets/images/uploadedImages/IMG_7175.JPG",
+        "author": "Admin",
+        "createdAt": "2021-01-01",
+        "name": "For the public education",
+        "comments": [],
+        "rating": [],
+        "tags": ["human", "girl", "woman", "city", "Szeged"],
+        "vertical": false
+    }
+]

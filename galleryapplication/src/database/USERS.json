@@ -1,0 +1,11 @@
+[
+    {
+        "user": "Admin",
+        "firstLogedIn": "2021-01-01"
+    },
+    {
+        "user": "Kristóf",
+        "sex": "male",
+        "firstLogedIn": "2021-05-01"
+    }
+]
