@@ -1,13 +1,9 @@
-function reducer(state = [], action) {
+export default function reducer(state = "", action) {
     switch(action.type){
         case "logedIn":
-            return [
-                ...state,{
-                    user: action.payload.user,
-                }
-            ];
+            return action.payload.user;
         case "logedOut":
-            return state;
+            return "";
         default :
             return state;
     }

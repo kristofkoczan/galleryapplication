@@ -1,123 +1,39 @@
-body{
+.App {
   text-align: center;
-  align-items: center;
-  background-color: #DCDCDC;
-
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-
-
-
-/*Reuseable*/
-.form{
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  padding: 1%;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.zoom {
-  transition: transform .2s;
-}.zoom:hover {
-  transform: scale(1.1);
-}
-
-.clickAble{
-  cursor: pointer;
-}
-
-.input{
-  width: 90%;
-}
-
-
-
-
-
-
-/*Components*/
-.Header{
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-
-}
-.Header > div{
-  margin: 10px 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-
-.notFound{
-  color: grey;
-}
-.notFound > span{
-  color: black;
-  font-size: larger;
-}
-.notFoundIcon{
-  margin-top: 150px;
-  color: black;
+.App-link {
+  color: #61dafb;
 }
 
-.loginPict{
-  width: 200px;
-  height: 200px;
-}
-.loginPictHolder{
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  object-fit: cover;
-  overflow: hidden;
-  border: 1px solid gray;
-  border-radius: 100px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.gridHolder{
-  width: 80%;
-  margin: 30px 10%;
-}
-
-
-.focusPicture{
-  width: 50%;
-}
-.focusPicture1{
-  width: 25%;
-}
-
-.cardContainer{
-  width: 50%;
-  margin: 10px 25%;
-}
-
-.uploaderForm{
-  margin: 10px 30px;
-}
-
-.contain1{
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contain2{
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
