@@ -96,12 +96,12 @@ function SimpleDialog(props) {
                 </IconButton>
               </label><br/>
 
-              <input accept="image/*" className="hidden" id="icon-button-file" type="file" onChange={uploadPicture}/>{Array.from(filename).length >= 15 ? filename.substr(0, 14) + "..." : filename}<br/><br/>
+              <input accept="image/*" className="hidden" id="icon-button-file" type="file" onChange={uploadPicture} required/>{Array.from(filename).length >= 15 ? filename.substr(0, 14) + "..." : filename}<br/><br/>
             <TextField label="name" value={newName} onChange={handleNameChange}/><br/><br/>
 
             <FormControl>
               <FormLabel>Ratio</FormLabel>
-              <RadioGroup aria-label="Ratio" name="Ratio" value={raduiValue} onChange={handleRadioChange}>
+              <RadioGroup aria-label="Ratio" name="Ratio" value={raduiValue} onChange={handleRadioChange} required>
                 <FormControlLabel value="vertical" control={<Radio />} label="vertical" />
                 <FormControlLabel value="horizontal" control={<Radio />} label="horizontal" />
               </RadioGroup>

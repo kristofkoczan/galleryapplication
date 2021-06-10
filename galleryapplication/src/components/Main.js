@@ -6,7 +6,7 @@ import Profile from './main/logedin/profile/Profile';
 import Gridlist from './main/logedin/lists/Gridlist';
 import Collection from './main/logedin/lists/Collection';
 import PICTURES from './../database/PICTURES.json';
-import Uploadpicture from './main/logedin/lists/Uploadpicture';
+import ChipsHandler from './main/logedin/lists/ChipsHandler';
 
 export default function Main() {
     const page = useSelector(state => state.page)
@@ -22,6 +22,7 @@ export default function Main() {
                 return (
                     <div>
                         <Navbar />
+                        <ChipsHandler />
                         <Gridlist />
                     </div>
                 )
@@ -29,8 +30,7 @@ export default function Main() {
                 return (
                     <div>
                         <Navbar />
-                        <Uploadpicture setPictures={setPictures} pictures={pictures}/>
-                        <Collection collectionArray={collectionArray}/>
+                        <Collection collectionArray={collectionArray} setPictures={setPictures} pictures={pictures}/>
                     </div>
                 )
             case "profile" : 

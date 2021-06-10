@@ -49,7 +49,18 @@
         "author": "Kristóf",
         "createdAt": "2021-01-01",
         "name": "EDC | Black collection",
-        "comments": [],
+        "comments": [
+            {
+            "author": "Admin",
+            "comment": "Wow, it's Peter Mckinnon style, right?",
+            "createdAt": "2021-01-02"
+            },
+            {
+            "author": "Kristóf",
+            "comment": "Yes, he inspired this shot!",
+            "createdAt": "2021-01-03"
+            }
+        ],
         "rating": [],
         "tags": ["EDC", "black", "black and white", "b&w", "everyday", "flatlay"],
         "vertical": false

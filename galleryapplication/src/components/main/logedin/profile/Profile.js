@@ -113,7 +113,6 @@ export default function Profile() {
             </div>
             <div className="mid-size">First loged in {user.firstLogedIn}</div>
             <div className="mid-size">Pictures - {PICTURES.map(pict => pict.author === user.user ? userLikes+=1 : ''), userLikes}</div>
-            <div className="mid-size">Likes - undefined</div>
             <Button variant="contained" color="primary" onClick={() => handleLogOut()}>Log out</Button><br/><br/>
         </Card>
 
