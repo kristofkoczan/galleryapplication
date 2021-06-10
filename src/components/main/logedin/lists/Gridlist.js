@@ -9,6 +9,7 @@ import store from './../../../../store';
 import { useSelector } from 'react-redux';
 import Focus from './Focus';
 import Rating from './Rating';
+import ChipsHandler from './ChipsHandler';
 
 export default function Gridlist(props) {
     const [focus, setFocus] = useState(false)
@@ -25,17 +26,20 @@ export default function Gridlist(props) {
         }
     }
 
-
+    console.log("start")
     for(let i = pictureArray.length-1; i>=0; i--){
         sum += (pictureArray[i].vertical ? 1 : 2);
         if(sum === widthHelp){
             (pictureArray[i].vertical ? arrayOfPictures.unshift(true) : arrayOfPictures.unshift(false));
+            console.log(sum, arrayOfPictures[0])
             sum = 0;
         }else if(sum === (widthHelp+1)){
             arrayOfPictures.unshift(true);
+            console.log(sum, arrayOfPictures[0])
             sum = 0;
         }else{
             (pictureArray[i].vertical ? arrayOfPictures.unshift(true) : arrayOfPictures.unshift(false));
+            console.log(sum, arrayOfPictures[0])
         } 
     }
     if(gridlistHelp.length !== arrayOfPictures.length){
@@ -56,12 +60,15 @@ export default function Gridlist(props) {
     if(!focus){
         return (
             <div className="gridListHolder">
+                <div className="center"> 
+                    <ChipsHandler />
+                </div>     
                 <br/>
                 <GridList cellHeight={widthHelp === 2 ? 200 : ( widthHelp === 4 ? 300 : (widthHelp === 6 ? 375 : (widthHelp === 4 ? 300 : 250)))} cols={widthHelp} >
                     {pictureArray.slice(0).reverse().map((pict) => (
-                    <GridListTile key={pict.src} cols={pict.vertical ? 1 : (gridlistHelp[pict.id] ? 1 : 2)}>
+                    <GridListTile key={pict.src} cols={pict.vertical ? 1 : (gridlistHelp[pictureArray.indexOf(pict)] ? 1 : 2)}>
                         <div className="gridPictHolder">
-                            <img src={pict.src} alt={pict.name} className={pict.vertical ? "horizontPict small-zoom clickable" : (gridlistHelp[pict.id] ? "horizontPictChanged small-zoom clickable" : "verticalPict small-zoom clickable")} onClick={() => handleSetFocus(pict)}/>
+                            <img src={pict.src} alt={pict.name} className={pict.vertical ? "horizontPict small-zoom clickable" : (gridlistHelp[pictureArray.indexOf(pict)] ? "horizontPictChanged small-zoom clickable" : "verticalPict small-zoom clickable")} onClick={() => handleSetFocus(pict)}/>
                         </div>
                         <GridListTileBar
                         title={pict.name}

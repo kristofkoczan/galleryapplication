@@ -18,20 +18,16 @@ export default function Gridlist(props) {
     let arrayOfPictures = [];
     let widthHelp = (window.innerWidth >= 1100 ? 6 : (window.innerWidth >= 720 ? 4 : 2));
 
-    console.log("start")
     for(let i = props.collectionArray.length-1; i>=0; i--){
         sum += (props.collectionArray[i].vertical ? 1 : 2);
         if( sum === widthHelp){
             (props.collectionArray[i].vertical ? arrayOfPictures.unshift(true) : arrayOfPictures.unshift(false));
-            console.log(sum, arrayOfPictures[0])
             sum = 0;
         }else if(sum === (widthHelp+1)){
             arrayOfPictures.unshift(true);
-            console.log(sum, arrayOfPictures[0])
             sum = 0;
         }else{
             (props.collectionArray[i].vertical ? arrayOfPictures.unshift(true) : arrayOfPictures.unshift(false));
-            console.log(sum, arrayOfPictures[0])
         } 
     }
     console.log(gridlistHelp)

@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "src": "assets/images/uploadedImages/IMG_3806.JPG",
+        "src": "assets/images/uploadedImages/IMG_3806.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "Girl in white",
@@ -12,7 +12,7 @@
     },
     {
         "id": 1,
-        "src": "assets/images/uploadedImages/IMG_7649.JPG",
+        "src": "assets/images/uploadedImages/IMG_7649.jpg",
         "author": "Kristóf",
         "createdAt": "2021-01-01",
         "name": "Coffee up high",
@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "src": "assets/images/uploadedImages/IMG_3169.JPG",
+        "src": "assets/images/uploadedImages/IMG_3169.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "The old and the young ladies",
@@ -34,7 +34,7 @@
     },
     {
         "id": 3,
-        "src": "assets/images/uploadedImages/IMG_5554.JPG",
+        "src": "assets/images/uploadedImages/IMG_5554.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "Light at the end of the tunnel",
@@ -45,7 +45,7 @@
     },
     {
         "id": 4,
-        "src": "assets/images/uploadedImages/IMG_6560.JPG",
+        "src": "assets/images/uploadedImages/IMG_6560.jpg",
         "author": "Kristóf",
         "createdAt": "2021-01-01",
         "name": "EDC | Black collection",
@@ -67,7 +67,7 @@
     },
     {
         "id": 5,
-        "src": "assets/images/uploadedImages/IMG_3925.JPG",
+        "src": "assets/images/uploadedImages/IMG_3925.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "Sonic boom",
@@ -78,7 +78,7 @@
     },
     {
         "id": 6,
-        "src": "assets/images/uploadedImages/IMG_7766.JPG",
+        "src": "assets/images/uploadedImages/IMG_7766.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "The cool look",
@@ -89,7 +89,7 @@
     },
     {
         "id": 7,
-        "src": "assets/images/uploadedImages/IMG_7411.JPG",
+        "src": "assets/images/uploadedImages/IMG_7411.jpg",
         "author": "Kristóf",
         "createdAt": "2021-01-01",
         "name": "Shadows and emptiness",
@@ -100,7 +100,7 @@
     },
     {
         "id": 8,
-        "src": "assets/images/uploadedImages/IMG_5619.JPG",
+        "src": "assets/images/uploadedImages/IMG_5619.jpg",
         "author": "Kristóf",
         "createdAt": "2021-01-01",
         "name": "The source of LIFE",
@@ -111,7 +111,7 @@
     },
     {
         "id": 9,
-        "src": "assets/images/uploadedImages/IMG_7175.JPG",
+        "src": "assets/images/uploadedImages/IMG_7175.jpg",
         "author": "Admin",
         "createdAt": "2021-01-01",
         "name": "For the public education",
